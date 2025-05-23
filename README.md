@@ -1,1 +1,1 @@
-Problem : 
+Problem : A multithreaded program where two types of threads—Adder Threads and Subtractor Threads—concurrently modify a shared count variable. The Adder threads increment the count, while the Subtractor threads decrement it. Due to lack of synchronization (e.g., no locks or atomic operations), the final value of count varies with each execution, demonstrating race conditions in multithreaded environments.
